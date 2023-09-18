@@ -262,7 +262,7 @@ section {
 
 .nav-list {
   position: fixed;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   top: 0;
   left: 100%;
@@ -356,9 +356,9 @@ section {
   background-color: var(--nav-toggler-icon-color-fixed);
 }
 
-.header.fixed .nav-list {
+/* .header.fixed .nav-list {
   background-color: var(--nav-list-bg-color-fixed);
-}
+} */
 
 @media screen and (min-width: 992px) {
   .header.fixed .nav-list {
